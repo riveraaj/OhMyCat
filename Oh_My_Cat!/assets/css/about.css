@@ -1,0 +1,187 @@
+/* Main About */
+#main{
+    background-color: var(--main-color);
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.header-about{
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.header-about h2{
+    color: rgba(0,0,0,.75);
+    font-weight: 900;
+}
+.header-about hr{
+    background-color: #9670E0;
+    border: none;
+    height: 4px;
+    width: 30%;
+    margin: 15px auto;
+}
+.header-about span{
+    color: #AAA;
+}
+.company-about{
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.container-mision-vision{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container-mision-vision div{
+    margin: 10px;
+}
+.card-about{
+    min-width: 290px;
+    max-width: 340px;
+    background-color: #fff;
+    margin: 30px 0px 0px 0px;
+    padding: 20px 10px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hexagon{
+    width: 86.6px;
+    height: 95px;
+    background-image: url(../img/Polygon.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hexagon-mision img{
+    width: 80px;
+}
+#hexagon-vision img{
+    width: 70px;
+    position: relative;
+    top: 5px;
+}
+#hexagon-valores img{
+    width: 75px;
+}
+.container-hexagon h3{
+    margin-top: 30px;
+    color: rgba(0,0,0,.75);
+}
+.container-hexagon p{
+    color: rgba(0,0,0,.85);
+}
+@media screen and (min-width:1200px) {
+    .main-container{
+        background-color: #fff;
+        margin: 40px;
+        border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .container-mision-vision{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 100px;
+    }
+    .col{
+        flex-direction: row;
+        min-width: none;
+        max-width: none;
+    }
+    .container-hexagon h3{
+        margin-top: 1px;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .card-about p{
+        margin-left: 30px;
+        text-align: left;
+    }
+    #valores{
+        margin-top: -10px;
+    }
+    #valores p{
+        text-align: center;
+        margin-left: 0;
+        letter-spacing: 1px;
+        line-height: 1.6em;
+    }
+    /*.header-about{
+        padding: 60px;
+        text-align: center;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .header-about h2{
+       width: 40%;
+       margin: auto;
+    }
+    .header-about span{
+        display: block;
+        font-size: 1.2em;
+        width: 30%;
+        margin: auto;
+    }
+    .company-about{
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+    .container-mision-vision{
+        display: block;
+    }
+    .card-about{
+        min-width: none;
+        max-width: none;
+        margin: 0;
+        padding: 20px 20%;
+        flex-direction: row;
+    }
+    .container-hexagon h3{
+        margin-top: 10px;
+    }
+    #mision{
+        text-align: left;
+    }
+    .card-about p{
+        font-size: 1.1em;
+    }
+    #vision{
+        flex-direction: row;
+        text-align: left;
+    }
+    #valores{
+        flex-direction: column;
+    }
+    .container-hexagon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+}
