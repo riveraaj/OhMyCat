@@ -1,5 +1,5 @@
 # Oh_My_Cat
-Veterinary - Website (University project - first year)
+Veterinary - Website
 
 -- Link --
 
